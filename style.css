@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Roboto;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: whitesmoke;
+    min-height: 10vh;
+}
+
+.logo{
+    font-size: 4vw;
+    color: #D6000D !important;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.logo span{
+    color: black;
+}
+
+.menu-item{
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 900;
+}
+
+.menu-item:last-child{
+    padding: 10px 40px;
+    color: whitesmoke;
+    background-color: #D6000D !important;
+    border-radius: 10px;
+    font-weight: 900 !important;
+}
+
+.conteiner-main{
+    background-color: rgb(236, 235, 235);
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-conteiner-img{
+    width: 35%;
+    padding: 20px;
+}
+
+.main-conteiner-img img{
+    width: 100%;
+}
+
+.main-conteiner-textsAndButton{
+    width: 35%;
+}
+
+.main-conteiner-textsAndButton p{
+    font-weight: 900;
+    font-size: 2.5vw;
+}
+
+.main-conteiner-textsAndButton h2{
+    color: #D6000D;
+    font-size: 5vw;
+}
+
+.main-conteiner-textsAndButton button{
+    padding: 10px 40px;
+    font-size: 2vw;
+    background-color: #D6000D;
+    border-radius: 10px;
+    font-weight: 900 !important;
+    margin-top: 3vw;
+    border-style: none;
+}
+
+.main-conteiner-textsAndButton a{
+    color: whitesmoke;
+}
