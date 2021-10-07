@@ -19,13 +19,14 @@ a:visited{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 2%;
     background-color: whitesmoke;
     min-height: 10vh;
 }
 
 .logo{
-    font-size: 4vw;
+    font-size: 55px;
     color: #D6000D !important;
     font-weight: 900;
     font-style: italic;
@@ -33,6 +34,10 @@ a:visited{
 
 .logo span{
     color: black;
+}
+
+.conteiner-menu{
+    margin: 0px 40px;
 }
 
 .menu-item{
@@ -92,4 +97,22 @@ a:visited{
 
 .main-conteiner-textsAndButton a{
     color: whitesmoke;
+}
+
+
+
+@media (max-width: 700px){
+    .container-header{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-bottom: 20px;
+    }
+
+    .conteiner-main{
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+    }
 }
