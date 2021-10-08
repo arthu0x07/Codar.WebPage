@@ -14,8 +14,8 @@ a:visited {
   color: black;
 }
 
-body{
-    background-color: rgb(236, 235, 235);
+body {
+  background-color: rgb(236, 235, 235);
 }
 
 .container-header {
@@ -129,12 +129,12 @@ body{
   align-items: center;
 }
 
-.icon-check{
-    margin-right: 3vw;
-    font-size: 2.5vw;
-    background-color: #d6000d;
-    color: whitesmoke;
-    border-radius: 50%;
+.icon-check {
+  margin-right: 3vw;
+  font-size: 2.5vw;
+  background-color: #d6000d;
+  color: whitesmoke;
+  border-radius: 50%;
 }
 
 .informacoes-imagem {
@@ -177,54 +177,54 @@ body{
 
 /* Seção 3 */
 
-.conteiner-cards{
-    margin-top: 10vh;
-    background-color: rgb(236, 235, 235);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 50px;
+.conteiner-cards {
+  margin-top: 10vh;
+  background-color: rgb(236, 235, 235);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
-.card{
-    width: 45%;
-    height: 20vh;
-    background-color: rgb(212, 209, 209);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    border-radius: 5px;
+.card {
+  width: 45%;
+  height: 20vh;
+  background-color: rgb(212, 209, 209);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-.card-img{
-    align-self: flex-start;
-    padding: 10px;
-    border-radius: 50%;
-    width: 20%;
-    height: 60%;
+.card-img {
+  align-self: flex-start;
+  padding: 10px;
+  border-radius: 50%;
+  width: 20%;
+  height: 60%;
 }
 
-.conteiner-card-text p{
-    font-size: 1em;
-    margin-bottom: 5px;
+.conteiner-card-text p {
+  font-size: 1em;
+  margin-bottom: 2vw;
 }
 
-.conteiner-card-text h2{
-    font-weight: 900;
-    font-size: 2vw;
+.conteiner-card-text h2 {
+  font-weight: 900;
+  font-size: 2vw;
 }
 
-.conteiner-card-text h3{
-    font-weight: 900;
-    font-size: 1vw;
+.conteiner-card-text h3 {
+  font-weight: 900;
+  font-size: 1vw;
 }
 
 /* Seção 4 - footer */
 
-.conteiner-footer{
-    min-height: 30vh;
-    background-color: black;
+.conteiner-footer {
+  min-height: 30vh;
+  background-color: black;
 }
 
 /* Media Query´s */
@@ -243,6 +243,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 75px;
   }
 
   .main-conteiner-img {
@@ -282,7 +283,7 @@ body{
     width: 60%;
     font-size: 3vw;
     order: 2;
-    margin: 20px 0px;
+    margin: 60px 0px;
   }
 
   .informacoes-imagem {
@@ -318,16 +319,15 @@ body{
 
   /* Seção 4 - cards */
 
-  .conteiner-cards{
+  .conteiner-cards {
     flex-direction: column;
     align-items: center;
   }
 
-  .card{
-      width: 80%;
-      margin: 10px 0px 10px 0px;
+  .card {
+    width: 80%;
+    margin: 10px 0px 10px 0px;
   }
-
 }
 
 @media (max-width: 510px) {
