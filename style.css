@@ -5,6 +5,7 @@
     padding: 0px;
     text-decoration: none;
     font-family: Roboto;
+    list-style: none;
 }
 
 a:link{
@@ -46,7 +47,7 @@ a:visited{
     font-weight: 900;
 }
 
-.menu-item:last-child{
+#botao-login{
     padding: 10px 40px;
     color: whitesmoke;
     background-color: #D6000D !important;
@@ -101,6 +102,77 @@ a:visited{
 
 
 
+
+/* Seção 2 */
+
+.conteiner-informacoes{
+    height: auto;
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(236, 235, 235);
+    padding-top: 80px;
+}
+
+.informacoes-lista{
+    width: 50%;
+    position: relative;
+    left: 15vw;
+    font-size: 2.5vw;
+    font-weight: 900;
+}
+
+.informacoes-lista li{
+    padding: 5px;
+}
+
+.informacoes-imagem{
+    width: 50%;
+}
+
+.informacoes-imagem img{
+    width: 80%;
+}
+
+.informacoes-form{
+    width: 100%;
+    padding: 0px 0px 0px 13vw;
+    min-height: 15vh;
+    order: 3;
+}
+
+.informacoes-form p{
+    font-size: 16px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    font-weight: 900;
+}
+
+.informacoes-form form input{
+    padding: 10px 30px 10px 10px;
+    background-color: rgb(212, 209, 209);
+    border-radius: 10px;
+    border-style: none;
+}
+
+.informacoes-form form button{
+    border-style: none;
+    padding: 10px 35px;
+    background-color: #D6000D;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: 900;
+}
+
+
+
+
+
+
+/* Media Query´s */
+
 @media (max-width: 700px){
     .container-header{
         flex-direction: column;
@@ -111,8 +183,97 @@ a:visited{
     }
 
     .conteiner-main{
-        min-height: 80vh;
+        text-align: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .main-conteiner-img{
+        width: 80%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .main-conteiner-textsAndButton{
+        width: 100%;
+    }
+
+    .main-conteiner-textsAndButton p{
+        font-size: 4vw;
+    }
+    
+    .main-conteiner-textsAndButton h2{
+        font-size: 9vw;
+    }
+    
+    .main-conteiner-textsAndButton button{
+        font-size: 5vw;
+        margin-bottom: 10px;
+    }
+
+    /* Seção 2 */
+
+    .conteiner-informacoes{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        padding-top: 5vh;
+    }
+
+    .informacoes-lista{
+        position: static;
+        width: 60%;
+        font-size: 3vw;
+        order: 2;
+        margin: 20px 0px;
+    }
+    
+    
+    .informacoes-imagem{
+        width: 80%;
+        order: 1;
+    }
+
+    .informacoes-imagem img{
+        width: 100%;
+    }
+
+    .informacoes-form{
+        width: 100%;
+        padding: 0px;
+        order: 3;
+        margin: 0px;
+    }
+
+    .informacoes-form p{
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .informacoes-form form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        max-width: 80%;        
+        margin: 0px auto;
+    }
+}
+
+@media (max-width: 510px){
+    #botao-login{
+        display: none;
+    }
+
+    .informacoes-lista{
+        font-size: 4vw;
+    }
+}
+
+/* diminue botões dos menus */
+@media (max-width: 350px){
+    .menu-item{
+        font-size: 15px;
     }
 }
