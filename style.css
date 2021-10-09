@@ -231,8 +231,53 @@ body {
 
 .conteiner-footer {
   min-height: 30vh;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 40px 10px;
+  color: rgba(245, 245, 245, 0.85);
+  font-size: 11px;
+  font-weight: 100;
 }
+
+.footer-section1-Codar{
+}
+
+.footer-section1-Codar h2{
+  font-size: 35px;
+  font-weight: 900;
+  font-style: oblique;
+}
+
+.footer-section4-Sociais{
+}
+
+.footer-section4-Sociais img{
+  margin: 5px;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.footer-sections{
+  width: 20%;
+}
+
+.footer-sections p{
+  padding-top: 20px;
+  font-weight: 100;
+  font-size: 12px;
+  color: rgba(245, 245, 245, 0.733);
+}
+
+.footer-sections img{
+  margin-top: 20px;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////// */
+
 
 /* Media Query´s */
 
@@ -335,6 +380,64 @@ body {
     width: 80%;
     margin: 0px 0px 10px 0px;
   }
+
+  /* Seção 5 - footer  */
+
+  .conteiner-footer {
+    min-height: 30vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 10px 20px;
+    color: rgba(245, 245, 245, 0.85);
+    font-size: 5vw;
+    font-weight: 100;
+
+    flex-direction: column;
+  }
+
+  .footer-sections{
+    margin: 10px;
+    width: 100%;
+  }
+
+  .footer-sections p{
+    padding: 0px;
+    font-size: 3vw;
+  }
+
+  .footer-section1-Codar{
+    text-align: center;
+  }
+  
+  .footer-section1-Codar h2{
+    font-size: 55px;
+    font-weight: 900;
+    font-style: oblique;
+  }
+  
+  .footer-section3-Contato a{
+    font-size: 4vw;
+    color: rgba(245, 245, 245, 0.753);
+    text-decoration: underline 0.1px rgba(245, 245, 245, 0.548);
+  }
+
+  .footer-section3-Contato p{
+    padding-top: 17px;
+  }
+  
+  .footer-section4-Sociais img{
+    margin: 5px;
+    background-color: red;
+    border-radius: 5px;
+  }
+  
+  .footer-sections img{
+    margin-top: 20px;
+  }
+
 }
 
 @media (max-width: 510px) {
