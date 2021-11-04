@@ -1,4 +1,6 @@
-<br />
+<h1 align="center"> Confira a versão final -> <a href="https://arthu0x07.github.io/Codar.WebPage/" target="_blank">ShopGetCoffeWebPage</a>
+<br /><br /><br />
+  
 <p align="center">
   <a href="http://www.freepik.com">
     <img src="https://i.ibb.co/stqTkc6/video-call.png" alt="Logo" width="250" height="200">
